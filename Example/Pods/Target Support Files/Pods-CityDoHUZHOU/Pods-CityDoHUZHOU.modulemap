@@ -1,0 +1,6 @@
+framework module Pods_CityDoHUZHOU {
+  umbrella header "Pods-CityDoHUZHOU-umbrella.h"
+
+  export *
+  module * { export * }
+}

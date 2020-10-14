@@ -1,0 +1,24 @@
+{
+  "name": "CityDoLib",
+  "version": "0.1.0",
+  "summary": "Test CTMediator CityDoLib",
+  "description": "test my podlib. App componentization attempt",
+  "homepage": "https://github.com/KkWee/CityDoLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "KkWee": "kkkween@163.com"
+  },
+  "source": {
+    "git": "https://github.com/KkWee/CityDoLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "CityDoLib/Classes/**/*",
+  "swift_version": "5.0"
+}

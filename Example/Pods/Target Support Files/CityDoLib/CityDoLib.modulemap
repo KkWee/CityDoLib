@@ -1,0 +1,6 @@
+framework module CityDoLib {
+  umbrella header "CityDoLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

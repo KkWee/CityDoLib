@@ -1,0 +1,16 @@
+PODS:
+  - CityDoLib (0.1.0)
+
+DEPENDENCIES:
+  - CityDoLib (from `../`)
+
+EXTERNAL SOURCES:
+  CityDoLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CityDoLib: d476996c6a0e34583facf9378e9fc6fd20327d31
+
+PODFILE CHECKSUM: 1404106eeda4fc55b9003398fc70edaf73ef1936
+
+COCOAPODS: 1.9.1
