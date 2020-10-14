@@ -1,6 +1,7 @@
 use_frameworks!
-target 'CityDoLib_Tests' do
-  pod 'CityDoLib', :path => '../'
+
+target 'CityDoHUZHOU' do
   
+  pod 'CityDoLib', :path => '../'
   
 end

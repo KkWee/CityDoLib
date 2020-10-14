@@ -7,48 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0016F58825319553007E2762 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016F58725319553007E2762 /* AppDelegate.swift */; };
+		0016F58A25319553007E2762 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016F58925319553007E2762 /* SceneDelegate.swift */; };
+		0016F58C25319553007E2762 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016F58B25319553007E2762 /* ViewController.swift */; };
+		0016F58F25319553007E2762 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0016F58D25319553007E2762 /* Main.storyboard */; };
+		0016F59125319556007E2762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0016F59025319556007E2762 /* Assets.xcassets */; };
+		0016F59425319556007E2762 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0016F59225319556007E2762 /* LaunchScreen.storyboard */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		A1B7DF44606AF3716346F250 /* Pods_CityDoLib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E559A22CAAE59ADA6BD3CB1F /* Pods_CityDoLib_Tests.framework */; };
+		DDB7EC629148206C4B6595F0 /* Pods_CityDoHUZHOU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 851C75F6FEBB883B292C2AD0 /* Pods_CityDoHUZHOU.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0016F58525319553007E2762 /* CityDoHUZHOU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityDoHUZHOU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0016F58725319553007E2762 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0016F58925319553007E2762 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0016F58B25319553007E2762 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0016F58E25319553007E2762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0016F59025319556007E2762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0016F59325319556007E2762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0016F59525319556007E2762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* CityDoLib_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CityDoLib_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7FEDAD7FDF7D7B03EE0CB6C3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		9BA0C0443454F0F7CC08378D /* Pods-CityDoLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityDoLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CityDoLib_Tests/Pods-CityDoLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A8A0367D12163614F9EBFE1E /* CityDoLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CityDoLib.podspec; path = ../CityDoLib.podspec; sourceTree = "<group>"; };
-		B033D8522DB72983D068301A /* Pods-CityDoLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityDoLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-CityDoLib_Tests/Pods-CityDoLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DFF7BC9F3DA73B2A1FB36ACD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E559A22CAAE59ADA6BD3CB1F /* Pods_CityDoLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CityDoLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FEDAD7FDF7D7B03EE0CB6C3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		851C75F6FEBB883B292C2AD0 /* Pods_CityDoHUZHOU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CityDoHUZHOU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		907AA5A10B4504C4C8874006 /* Pods-CityDoHUZHOU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityDoHUZHOU.release.xcconfig"; path = "Target Support Files/Pods-CityDoHUZHOU/Pods-CityDoHUZHOU.release.xcconfig"; sourceTree = "<group>"; };
+		A8A0367D12163614F9EBFE1E /* CityDoLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CityDoLib.podspec; path = ../CityDoLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C48456D3F4B0284904771132 /* Pods-CityDoHUZHOU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityDoHUZHOU.debug.xcconfig"; path = "Target Support Files/Pods-CityDoHUZHOU/Pods-CityDoHUZHOU.debug.xcconfig"; sourceTree = "<group>"; };
+		DFF7BC9F3DA73B2A1FB36ACD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0016F58225319553007E2762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB7EC629148206C4B6595F0 /* Pods_CityDoHUZHOU.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACE21AFB9204008FA782 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1B7DF44606AF3716346F250 /* Pods_CityDoLib_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0016F58625319553007E2762 /* CityDoHUZHOU */ = {
+			isa = PBXGroup;
+			children = (
+				0016F58725319553007E2762 /* AppDelegate.swift */,
+				0016F58925319553007E2762 /* SceneDelegate.swift */,
+				0016F58B25319553007E2762 /* ViewController.swift */,
+				0016F58D25319553007E2762 /* Main.storyboard */,
+				0016F59025319556007E2762 /* Assets.xcassets */,
+				0016F59225319556007E2762 /* LaunchScreen.storyboard */,
+				0016F59525319556007E2762 /* Info.plist */,
+			);
+			path = CityDoHUZHOU;
+			sourceTree = "<group>";
+		};
 		3B310787DA78AF258EFFF213 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9BA0C0443454F0F7CC08378D /* Pods-CityDoLib_Tests.debug.xcconfig */,
-				B033D8522DB72983D068301A /* Pods-CityDoLib_Tests.release.xcconfig */,
+				C48456D3F4B0284904771132 /* Pods-CityDoHUZHOU.debug.xcconfig */,
+				907AA5A10B4504C4C8874006 /* Pods-CityDoHUZHOU.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		3F28287104AFF6D499CB060A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E559A22CAAE59ADA6BD3CB1F /* Pods_CityDoLib_Tests.framework */,
+				851C75F6FEBB883B292C2AD0 /* Pods_CityDoHUZHOU.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -58,6 +92,7 @@
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACE81AFB9204008FA782 /* Tests */,
+				0016F58625319553007E2762 /* CityDoHUZHOU */,
 				607FACD11AFB9204008FA782 /* Products */,
 				3B310787DA78AF258EFFF213 /* Pods */,
 				3F28287104AFF6D499CB060A /* Frameworks */,
@@ -68,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACE51AFB9204008FA782 /* CityDoLib_Tests.xctest */,
+				0016F58525319553007E2762 /* CityDoHUZHOU.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,15 +138,32 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0016F58425319553007E2762 /* CityDoHUZHOU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0016F59625319556007E2762 /* Build configuration list for PBXNativeTarget "CityDoHUZHOU" */;
+			buildPhases = (
+				BC046B7DFDB87C105865584B /* [CP] Check Pods Manifest.lock */,
+				0016F58125319553007E2762 /* Sources */,
+				0016F58225319553007E2762 /* Frameworks */,
+				0016F58325319553007E2762 /* Resources */,
+				DC1F87D15B1ABED5A5088C3B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CityDoHUZHOU;
+			productName = CityDoHUZHOU;
+			productReference = 0016F58525319553007E2762 /* CityDoHUZHOU.app */;
+			productType = "com.apple.product-type.application";
+		};
 		607FACE41AFB9204008FA782 /* CityDoLib_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "CityDoLib_Tests" */;
 			buildPhases = (
-				D08B5D680F9D010962E2E4A0 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				972070E1A6D07E5A7BE2EEFF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,24 +180,26 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+					0016F58425319553007E2762 = {
+						CreatedOnToolsVersion = 12.0.1;
+						DevelopmentTeam = 9EYSYH2PXD;
+						ProvisioningStyle = Automatic;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						DevelopmentTeam = 9EYSYH2PXD;
+						LastSwiftMigration = 1200;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
 			};
 			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "CityDoLib" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -156,11 +211,22 @@
 			projectRoot = "";
 			targets = (
 				607FACE41AFB9204008FA782 /* CityDoLib_Tests */,
+				0016F58425319553007E2762 /* CityDoHUZHOU */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0016F58325319553007E2762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0016F59425319556007E2762 /* LaunchScreen.storyboard in Resources */,
+				0016F59125319556007E2762 /* Assets.xcassets in Resources */,
+				0016F58F25319553007E2762 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACE31AFB9204008FA782 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -171,25 +237,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		972070E1A6D07E5A7BE2EEFF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CityDoLib_Tests/Pods-CityDoLib_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CityDoLib/CityDoLib.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CityDoLib.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CityDoLib_Tests/Pods-CityDoLib_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D08B5D680F9D010962E2E4A0 /* [CP] Check Pods Manifest.lock */ = {
+		BC046B7DFDB87C105865584B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -204,16 +252,44 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CityDoLib_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CityDoHUZHOU-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		DC1F87D15B1ABED5A5088C3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CityDoHUZHOU/Pods-CityDoHUZHOU-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CityDoLib/CityDoLib.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CityDoLib.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CityDoHUZHOU/Pods-CityDoHUZHOU-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0016F58125319553007E2762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0016F58C25319553007E2762 /* ViewController.swift in Sources */,
+				0016F58825319553007E2762 /* AppDelegate.swift in Sources */,
+				0016F58A25319553007E2762 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACE11AFB9204008FA782 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -224,7 +300,81 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		0016F58D25319553007E2762 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0016F58E25319553007E2762 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0016F59225319556007E2762 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0016F59325319556007E2762 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		0016F59725319556007E2762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C48456D3F4B0284904771132 /* Pods-CityDoHUZHOU.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9EYSYH2PXD;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = CityDoHUZHOU/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kkween.huzhou.CityDoHUZHOU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0016F59825319556007E2762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 907AA5A10B4504C4C8874006 /* Pods-CityDoHUZHOU.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9EYSYH2PXD;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = CityDoHUZHOU/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kkween.huzhou.CityDoHUZHOU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		607FACED1AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -237,14 +387,17 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -270,7 +423,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -290,14 +443,17 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -316,7 +472,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -326,8 +482,8 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BA0C0443454F0F7CC08378D /* Pods-CityDoLib_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 9EYSYH2PXD;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -348,8 +504,8 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B033D8522DB72983D068301A /* Pods-CityDoLib_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 9EYSYH2PXD;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -367,6 +523,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0016F59625319556007E2762 /* Build configuration list for PBXNativeTarget "CityDoHUZHOU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0016F59725319556007E2762 /* Debug */,
+				0016F59825319556007E2762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "CityDoLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
